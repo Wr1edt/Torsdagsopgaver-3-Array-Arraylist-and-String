@@ -1,4 +1,4 @@
-# cph-1st-w39
+### Exercises with String, ArrayList, Math, Random
 
 
 Task 1-4 træner base class operations og skrivning af klasser i "ren" Java. De skal kodes i en almindelig text editor uden Processing. Task 5 og 6 er i Processing miljøet.
