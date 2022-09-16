@@ -1,4 +1,4 @@
-### Exercises with String, ArrayList, Math, Random
+### Exercises with String and array
 
 
 Task 1-4 træner base class operations og skrivning af klasser i "ren" Java. De skal kodes i en almindelig text editor uden Processing. Task 5 og 6 er i Processing miljøet.
@@ -83,7 +83,7 @@ In this task you will create an integer array with 2 dimensions, that holds valu
   <summary>Hint</summary>
   <p>use the modulus operator</p>
 </details>
- 
+
 
 6.c In draw() create a double for loop that loops through the board and draws a rect for each element with the sideLength of 40 (e.g. rect(x * sideLength, y * sideLength, sideLength, sideLength); )
 
