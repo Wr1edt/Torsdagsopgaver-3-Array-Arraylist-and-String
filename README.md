@@ -14,7 +14,11 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 ## Task 1. Palindrome
 
-  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (Hint: Lad dig inspirere i dokumentationen for String klassen)
+  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (
+  <details>
+  <summary>Hint</summary>
+  <p>Lad dig inspirere i dokumentationen for String klassen</p>
+</details>
   
   1.b Sørg for at metoden ikke er case-sensitiv.
   
@@ -33,34 +37,34 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 ---
 
 
-## Task 3 (ArrayList)
-3.a In main Create an array called cars, of type String with 3 car brands in it.
+## Task 3 Leg med tal
+3.a Create a class MathWork add a main method.
 
-3.b import java.util.Arrays 
+3.b Write a method 'divisible', that takes in an integer as a parameter and prints all values between 0 and 100 that are divisible by the parameter received. 
+<details>
+  <summary>Hint</summary>
+  <p>you need to use the % operator</p>
+</details>
 
-3.c Create a method that takes a String key as argument and uses this as the key argument in the binarySearch method(Arrays.binarySearch(cars, key)). Note that the array must be sorted before using binarySearch
 
-3.d let the method return the return value of the binarySearch call and print it from the main method
 
----
+3.c call the method from main 
 
-## Task 4 (Math and Random):
-4.a Create a class MathWork add a main method.
+3.d add the following array to the class: int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10 }
 
-4.b Write a method 'divisible', that takes in an integer as a parameter and prints all values between 0 and 100 that are divisible by the parameter received. 
-    (hint: you need to use the % operator)
+3.e Write a method, 'getRandom' that returns a random element from the above array.
 
-4.c call the method from main 
+3.f Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
 
-4.d add the following array to the class: int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10 }
 
-4.e Write a method, 'getRandom' that returns a random element from the above array.
-
-4.d Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
-
-4.e Write a method, fibunacci that takes two integers as parameters and prints the first of them.
+## Task 4 Fibonacci
+4.a Write a method, fibonacci that takes two integers as parameters and prints the first of them.
  Each printed value should followed by a tab ( \\t ). Then have the function calculate and print the fibunacci sequence (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144) by calling itself. If the input is greater than 1000, then stop. Start the function by calling it from main with the input (1, 1).
-(hint: how to calculate the fibunacci sequence: https://en.wikipedia.org/wiki/Fibonacci_number )
+ <details>
+  <summary>Hint</summary>
+  <p>how to calculate the fibonacci sequence: https://en.wikipedia.org/wiki/Fibonacci_number</p>
+</details>
+
 
 ---
 
@@ -74,7 +78,12 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 6.a Create a double int called board[][] with the length of 8 in both arrays. 
 
-6.b In setup() create a double for loop that loops through the board and alternates between assigning the value of 0 and 1 (e.g. board[x][y] = 0;). Hint: use the modulus operator
+6.b In setup() create a double for loop that loops through the board and alternates between assigning the value of 0 and 1 (e.g. board[x][y] = 0;). 
+<details>
+  <summary>Hint</summary>
+  <p>use the modulus operator</p>
+</details>
+ 
 
 6.c In draw() create a double for loop that loops through the board and draws a rect for each element with the sideLength of 40 (e.g. rect(x * sideLength, y * sideLength, sideLength, sideLength); )
 
