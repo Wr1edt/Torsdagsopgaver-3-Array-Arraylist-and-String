@@ -91,6 +91,22 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 ---
 
+
+## Task 7: Array
+
+- 7.a Create arrays of the following type and assign it at least 3 different values: 
+  - Integer array
+  - String array
+  - boolean array
+
+- 7.b Write a function that takes in an array of strings as parameter and prints each string.
+
+- 7.c Write a function that receives an integer array as a parameter and returns the sum of all elements in the array.
+
+- 7.d Write a function that receives an integer array as a parameter and returns the average value. 
+
+- 7.e Consider how you could write a function that takes in an integer array as a parameter and returns the array sorted from lowest to highest value.
+
 # Other exercises (optional)
 If you got stuck or if you finished the above, following are 3 links to exercises, where there is something for all levels.
 
