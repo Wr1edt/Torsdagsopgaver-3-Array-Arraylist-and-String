@@ -11,7 +11,7 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 ## Task 1. Palindrome
 
-  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (
+  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. 
   <details>
   <summary>Hint</summary>
   <p>Lad dig inspirere i dokumentationen for String klassen</p>
