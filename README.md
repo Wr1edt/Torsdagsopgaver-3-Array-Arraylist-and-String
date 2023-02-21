@@ -1,4 +1,4 @@
-### Exercises with String and array
+### Exercises with String, ArrayList and arrays
 
 
 Såfremt I sidder fast ved en opgave, så tag en kort pause og prøv igen. Hvis I stadig sidder fast ved den, så hop videre til den næste.
