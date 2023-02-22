@@ -90,7 +90,7 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 ## Task 7: ArrayList and arrays
 
 - 7.a Create three ArrayLists that can hold the following types and assign it at least 3 different values to each of them: 
-  -Integer
+  - Integer
   - String 
   - Boolean 
   
