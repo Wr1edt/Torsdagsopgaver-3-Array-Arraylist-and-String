@@ -93,6 +93,11 @@ In this task you will create an integer array with 2 dimensions, that holds valu
   -Integer
   - String 
   - Boolean 
+  
+  <details>
+  <summary>Hint</summary>
+  <p>ArrayLists can not contain primitive types such as int or boolean. But we can use the Java classes Integer and Boolean instead. We can still add numbers and truth-values to the ArrayLists (for example 17 or false) and we can read the elements from the ArrayList() via get as ints and booleans. </p>
+</details>
 
 - 7.b Write a function that takes an ArrayList of Strings as parameter and prints each String.
 
