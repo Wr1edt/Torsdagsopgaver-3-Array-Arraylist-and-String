@@ -105,7 +105,7 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 - 7.d Write a function that receives an ArrayList of Integers as a parameter and returns the average value. 
 
-- 7.e (optional) Consider how you could write a function that takes an array (not an ArrayList) of integer as a parameter and returns the list sorted from lowest to highest value.
+- 7.e (optional) Consider how you could write a function that takes an array (not an ArrayList) of integers as a parameter and returns a new array of the ints sorted from lowest to highest value.
 
 # Other exercises (optional)
 If you got stuck or if you finished the above, following are 3 links to exercises, where there is something for all levels.
