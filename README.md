@@ -17,7 +17,7 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 ---
 
-## Task 2. print et udsnit af et ord
+## Task 2: print et udsnit af et ord
 
 I denne opgave skal du bruge substring metoden fra klassen String. Substring metoden kan man bruge hvis man skal bruge et udsnit af en tekststreng. fx. de tre første bogstaver.(Læs om substring metoden her: https://beginnersbook.com/2013/12/java-string-substring-method-example/). 
 
@@ -33,7 +33,9 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 ---
 
-## Task 3 
+## Task 3: Working with String arrays
+In this task you will print out data from two different arrays.
+
 3.a Declare and initialize a String array which we will use to hold the names of five top rappers (or any musical artists of your liking).
 
 3.b Write a for-loop or a for-each loop that prints each name in the array. The output must look like a numbered list.
@@ -54,7 +56,7 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 ---
 
-## Task 4 
+## Task 4: Square objects in array 
 
 4.a Start a sketch and add a setup function, (set the size of the canvas).
 
@@ -83,7 +85,7 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 ---
 
-## Task 5 (Debugging):
+## Task 5: Debugging
 In the directory above named "Debugging", there are 10 different small sketches, each of which containing some kind of error. For each of the sketches, try to run it firstly, then have a look at the output and afterwards fix the error. You're done with the sketch, once it prints "Job's done". 
 
 ---
