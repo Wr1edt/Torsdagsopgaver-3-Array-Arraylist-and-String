@@ -53,7 +53,7 @@ I denne opgave skal du brug substring metoden fra klassen String. Substring meto
 1. ordet der skal findes et udsnit af. 
 2. index tallet for den karakter udsnittet skal starte fra
 3. længden på udsnittet. 
- 
+
 Ex: argumenterne "København", 1 og 4  skal give outputtet "øben". 
 
 2.b Kald metoden fra setup() med passende argumenter og se om den virker. 
@@ -71,7 +71,7 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 3.c Declare and initialize another String array which we will use to correspondingly hold the hits of the 5 artists in the former array.
 
-3.d Add to the for-loop from step 3.b, code that will change the output to something similar to this:
+3.d Look at the printing statement in step 3.b. Add code that will change the output to something similar to this:
 <code>1. Grandmaster Flash : "The Message"</code>
 <code>2. Run DMC  : "Walk This Way"</code>
 <code>...</code>
@@ -80,20 +80,28 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 ## Task 4 
 
-4.a Start a sketch and add a setup function, set the size of the canvas
+4.a Start a sketch and add a setup function, (set the size of the canvas).
+
 4.b Add an array to the sketch that will be holding 10 Square instances. (Square being a datatype that you have not yet added)
+
 4.c Write a class called Square with the attributes (fields) xposition and yposition. 
+
 4.d Add a constructor to the Square class with parametres for xposition and yposition.
+
 4.e Test the class by creating one Square object from the <code>setup</code> function. 
+
 4.f Add a method to the Square class called <code>display()</code>, that will draw a sqare at the position given by the two arguments the instance was created with (xposition and yposition). 
+
 4.g Test the <code>display()</code> -method  by calling it on the instance you created in step 4.e.
 <details>
   <summary>Hint</summary>
   <code>square.display();</code>
 </details>
 
-4.h In the sketch main tab, declare an array in global scope called <code>squares</code>
-4.i In the setup function, instead of instantiating 1 Square object we need 10. Therefor, use a for-loop to create the instanses. 
+4.h In the sketch main tab, declare an array in global scope called <code>squares</code>.
+
+4.i In the setup function, instead of instantiating 1 Square object we need 10. Therefor, use a <code>for-loop</code> to create the instanses. 
+
 4.j Add the instances to the squares array. You may do this after instantiation or simultaneously.
 
 
