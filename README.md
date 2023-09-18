@@ -10,16 +10,37 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 
 ## Task 1. Palindrome
+Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du lige prøver kræfter med den. Brug højst 30 minutter på den. 
 
-  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. 
+  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (Det kan være en rigtig god idé at skrive lidt pseudo kode, før du går igang). 
+ 
+ Her er lidt pseudokode til at hjælpe dig igang: 
+  1. gem ordet - stavet bagfra - i en anden variabel.
+  2. sammenlign den originale og den nye tekststreng. (hvis de er ens, betyder det at ordet kan staves bagfra)
+
+
+ <details>
+    
+  <summary>Hint 1</summary>
+  <p>En måde at få stavet ordet bagfra er at bruge et for-loop der starter fra det sidste bogstav i tekststrengen. Med [String klassens charAt()](https://www.w3schools.com/java/ref_string_charat.asp) metode , kan du få fat i hver enkelt karakter og tilføje dem en ad gangen til en opsamlingsvariabel. 
+  </p>
+</details>
+
   <details>
-  <summary>Hint</summary>
-  <p>Lad dig inspirere i dokumentationen for String klassen</p>
+  <summary>Hint 2</summary>
+  <p>Alternativt kan du lede på nettet efter noget kode der kan inspirere. [Tjek denne løsning](https://www.w3schools.com/Java/java_howto_reverse_string.asp) - en helt anden strategi end den fra Hint 1.
+  </p>
 </details>
   
-  1.b Sørg for at metoden ikke er case-sensitiv.
-  
-  1.c Kald metoden fra setup() med argumentet "Den laks skal ned", for at teste den.
+  1.b Sørg for at metoden ikke er case-sensitiv. 
+  <details>
+  <summary>Hint </summary>
+  <p>Du skal bruge en af String klassens metoder. [Kig efter en passende en her](https://www.w3schools.com/java/java_ref_string.asp)
+  </p>
+</details>
+
+
+  1.c Tilføj en setup metode og kald din metode med argumentet "Den laks skal ned", for at teste den.
 
 ---
 
