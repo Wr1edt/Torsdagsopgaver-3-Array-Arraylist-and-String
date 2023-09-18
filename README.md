@@ -10,7 +10,7 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 
 ## Task 1. Palindrome
-Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du lige prøver kræfter med den. Brug højst 30 minutter på den. 
+Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du lige prøver kræfter med den. Brug højst 30 minutter på den. Opgaven træner dig også i at bruge den hjælp du kan få på nettet.
 
   1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (Det kan være en rigtig god idé at skrive lidt pseudo kode, før du går igang). 
  
@@ -22,7 +22,8 @@ Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du l
  <details>
     
   <summary>Hint 1</summary>
-  <p>En måde at få stavet ordet bagfra er at bruge et for-loop der starter fra det sidste bogstav i tekststrengen. Med String klassens charAt() metode (https://www.w3schools.com/java/ref_string_charat.asp) , kan du få fat i hver enkelt karakter og tilføje dem en ad gangen til en opsamlingsvariabel. 
+  <p>En måde at få stavet ordet bagfra er at bruge et for-loop der starter fra det sidste bogstav i tekststrengen. Med String klassens charAt() metode (https://www.w3schools.com/java/ref_string_charat.asp), kan du få fat i hver enkelt bogstav og tilføje dem én ad gangen til en opsamlingsvariabel. 
+
   </p>
 </details>
 
@@ -56,30 +57,37 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 ---
 
+## Task 3 
+3.a Declare and initialize a String array which we will use to hold the names of five top rappers (or any musical artists of your liking).
+3.b Write a for-loop or a for-each loop that prints each name in the array. The output must look like a numbered list.
+<code>1. Grandmaster Flash</code>
+<code>2. Run DMC</code>
+<code>...</code>
+3.c Declare and initialize another String array which we will use to correspondingly hold the hits of the 5 artists in the former array.
+3.d Add to the for-loop from step 3.b, code that will change the output to something similar to this:
+<code>1. Grandmaster Flash : "The Message"</code>
+<code>2. Run DMC  : "Walk This Way"</code>
+<code>...</code>
 
-## Task 3 Leg med tal
-3.a Write a method 'divisible', that takes in an integer as a parameter and prints all values between 0 and 100 that are divisible by the parameter received. 
+---
+
+## Task 4 
+
+4.a Start a sketch and add a setup function, set the size of the canvas
+4.b Add an array to the sketch that will be holding 10 Square instances. (Square being a datatype that you have not yet added)
+4.c Write a class called Square with the attributes (fields) xposition and yposition. 
+4.d Add a constructor to the Square class with parametres for xposition and yposition.
+4.e Test the class by creating one Square object from the <code>setup</code> function. 
+4.f Add a method to the Square class called <code>display()</code>, that will draw a sqare at the position given by the two arguments the instance was created with (xposition and yposition). 
+4.g Test the <code>display()</code> -method  by calling it on the instance you created in step 4.e.
 <details>
   <summary>Hint</summary>
-  <p>you need to use the % operator</p>
+  <code>square.display();</code>
 </details>
 
-3.b Call the method from setup() to see if it works
-
-3.c Add the following array to the tab Main as a global variable: int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10 }
-
-3.d Write a method, getRandom() that returns a random element from the above array.
-
-3.e Write a function that takes an integer as a parameter and prints the number. After that, it subtracts one from the input and calls itself again (recursion). If the input is less than zero, it should no longer call itself. 
-
-
-## Task 4 Fibonacci (optional - do the other tasks first)
-4.a Write a method, fibonacci() that takes two integers as parameters and prints the first of them.
- Each printed value should followed by a tab ( \\t ). Then have the function calculate and print the fibunacci sequence (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144) by calling itself. If the input is greater than 1000, then stop. Start the function by calling it from main with the input (1, 1).
- <details>
-  <summary>Hint</summary>
-  <p>how to calculate the fibonacci sequence: https://en.wikipedia.org/wiki/Fibonacci_number</p>
-</details>
+4.h In the sketch main tab, declare an array in global scope called <code>squares</code>
+4.i In the setup function, instead of instantiating 1 Square object we need 10. Therefor, use a for-loop to create the instanses. 
+4.j Add the instances to the squares array. You may do this after instantiation or simultaneously.
 
 
 ---
@@ -108,7 +116,7 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 ---
 
 
-## Task 7: ArrayList and arrays
+## Task 7: ArrayList 
 
 - 7.a Create three ArrayLists that can hold the following types and assign it at least 3 different values to each of them: 
   - Integer
@@ -117,16 +125,27 @@ In this task you will create an integer array with 2 dimensions, that holds valu
   
   <details>
   <summary>Hint</summary>
-  <p>ArrayLists can not contain primitive types such as int or boolean. But we can use the Java classes Integer and Boolean instead. We can still add numbers and truth-values to the ArrayLists (for example 17 or false) and we can read the elements from the ArrayList() via get as ints and booleans. </p>
+  <p>ArrayLists can not contain primitive types such as int or boolean. But we can use the Java classes Integer and Boolean instead. We can still add numbers and truth-values to the ArrayLists (for example 17 or false) and we can read the elements from the ArrayList() via <code>get()</code> as ints and booleans. </p>
 </details>
 
-- 7.b Write a function that takes an ArrayList of Strings as parameter and prints each String.
+- 7.b Write a method that takes an ArrayList of Strings as parameter and prints each String.
 
-- 7.c Write a function that receives an ArrayList of Integers as a parameter and returns the sum of all elements in the array.
+ <details>
+  <summary>Hint</summary>
+  <p>The method-signature might look similar to this:<code>void printList(ArrayList<\String\> listToPrint) </code> </p>
+</details>
 
-- 7.d Write a function that receives an ArrayList of Integers as a parameter and returns the average value. 
+- 7.c Write a method that receives an ArrayList of Integers as a parameter and returns the sum of all elements in the array.
 
-- 7.e (optional) Consider how you could write a function that takes an array (not an ArrayList) of integers as a parameter and returns a new array of the ints sorted from lowest to highest value.
+ <details>
+  <summary>Hint</summary>
+  <p>The method-signature might look similar to this:<code>int printList(ArrayList<\Integer\> listToPrint) </code> </p>
+</details>
+
+- 7.d Write a method that receives an ArrayList of Integers as a parameter and returns the average value. 
+
+## Task 8: (optional) sorting arrays
+Consider how you could write a method that takes an array (not an ArrayList) of integers as a parameter and returns a new array of the ints sorted from lowest to highest value.
 
 # Other exercises (optional)
 If you got stuck or if you finished the above, following are 3 links to exercises, where there is something for all levels.
