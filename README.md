@@ -163,7 +163,18 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 - 7.d Write a method that receives an ArrayList of Integers as a parameter and returns the average value. 
 
-## Task 8: (optional) sorting arrays
+---
+
+## Task 8: Pick a random number from array
+
+8.a Add the following array as a global variable: int[] arr = { 28, 230, 9, 310,72}
+
+8b. Write a method, getRandom() that returns a random element from the above array.
+
+
+
+
+## Task 9: (optional) sorting arrays
 Consider how you could write a method that takes an array (not an ArrayList) of integers as a parameter and returns a new array of the ints sorted from lowest to highest value.
 
 # Other exercises (optional)
