@@ -45,11 +45,15 @@ Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du l
 
 ---
 
-## Task 2. print en delmængde af et ord
+## Task 2. print et udsnit af et ord
 
-I denne opgave skal du brug substring metoden fra klassen String.
+I denne opgave skal du brug substring metoden fra klassen String. Substring metoden kan man bruge hvis man skal bruge et udsnit af en tekststreng. fx. de tre første bogstaver.(Læs om substring metoden her: https://beginnersbook.com/2013/12/java-string-substring-method-example/). 
 
-2.a Lav en metode, printPartOfWord(), med tre parametre: 1. parameter er ordet, 2. parameter er index for det bogstav delmængden starter med og 3.  parameter er længden på delmængden. Metoden skal printe en delmængde af ordet, der kommer ind som 1. parameter. 
+2.a Lav en metode, printPartOfWord(), med tre parametre: 
+1. ordet der skal findes et udsnit af. 
+2. index tallet for den karakter udsnittet skal starte fra
+3. længden på udsnittet. 
+ 
 Ex: argumenterne "København", 1 og 4  skal give outputtet "øben". 
 
 2.b Kald metoden fra setup() med passende argumenter og se om den virker. 
@@ -59,11 +63,14 @@ Ex: argumenterne "København", 1 og 4  skal give outputtet "øben".
 
 ## Task 3 
 3.a Declare and initialize a String array which we will use to hold the names of five top rappers (or any musical artists of your liking).
+
 3.b Write a for-loop or a for-each loop that prints each name in the array. The output must look like a numbered list.
 <code>1. Grandmaster Flash</code>
 <code>2. Run DMC</code>
 <code>...</code>
+
 3.c Declare and initialize another String array which we will use to correspondingly hold the hits of the 5 artists in the former array.
+
 3.d Add to the for-loop from step 3.b, code that will change the output to something similar to this:
 <code>1. Grandmaster Flash : "The Message"</code>
 <code>2. Run DMC  : "Walk This Way"</code>
