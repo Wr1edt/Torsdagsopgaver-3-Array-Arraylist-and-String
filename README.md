@@ -8,46 +8,18 @@ Endvidere er I meget velkommen til at tale sammen om opgaverne, men det forvente
 
 Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres github repo. 
 
+## Task 1: Pick a random number from an array
 
-## Task 1. Palindrome
-Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du lige prøver kræfter med den. Brug højst 30 minutter på den. Opgaven træner dig også i at bruge den hjælp du kan få på nettet.
+1.a Add the following array as a global variable: int[] arr = { 28, 230, 9, 310,72}
 
-  1.a Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (Det kan være en rigtig god idé at skrive lidt pseudo kode, før du går igang). 
- 
- Her er lidt pseudokode til at hjælpe dig igang: 
-  1. gem ordet - stavet bagfra - i en anden variabel.
-  2. sammenlign den originale og den nye tekststreng. (hvis de er ens, betyder det at ordet kan staves bagfra)
+1.b. Write a method, getRandom() that returns a random element from the above array.
 
-
- <details>
-    
-  <summary>Hint 1</summary>
-  <p>En måde at få stavet ordet bagfra er at bruge et for-loop der starter fra det sidste bogstav i tekststrengen. Med String klassens charAt() metode (https://www.w3schools.com/java/ref_string_charat.asp), kan du få fat i hver enkelt bogstav og tilføje dem én ad gangen til en opsamlingsvariabel. 
-
-  </p>
-</details>
-
-  <details>
-  <summary>Hint 2</summary>
-  <p>Alternativt kan du lede på nettet efter noget kode der kan inspirere. Tjek denne løsning: https://www.w3schools.com/Java/java_howto_reverse_string.asp - en helt anden strategi end den fra Hint 1.
-  </p>
-</details>
-  
-  1.b Sørg for at metoden ikke er case-sensitiv. 
-  <details>
-  <summary>Hint </summary>
-  <p>Du skal bruge en af String klassens metoder. Kig efter en passende en her: https://www.w3schools.com/java/java_ref_string.asp
-  </p>
-</details>
-
-
-  1.c Tilføj en setup metode og kald din metode med argumentet "Den laks skal ned", for at teste den.
 
 ---
 
 ## Task 2. print et udsnit af et ord
 
-I denne opgave skal du brug substring metoden fra klassen String. Substring metoden kan man bruge hvis man skal bruge et udsnit af en tekststreng. fx. de tre første bogstaver.(Læs om substring metoden her: https://beginnersbook.com/2013/12/java-string-substring-method-example/). 
+I denne opgave skal du bruge substring metoden fra klassen String. Substring metoden kan man bruge hvis man skal bruge et udsnit af en tekststreng. fx. de tre første bogstaver.(Læs om substring metoden her: https://beginnersbook.com/2013/12/java-string-substring-method-example/). 
 
 2.a Lav en metode, printPartOfWord(), med tre parametre: 
 1. ordet der skal findes et udsnit af. 
@@ -137,7 +109,7 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 ## Task 7: ArrayList 
 
-- 7.a Create three ArrayLists that can hold the following types and assign it at least 3 different values to each of them: 
+- 7.a Create three ArrayLists that can hold the following types and assign at least 3 different values to each of them: 
   - Integer
   - String 
   - Boolean 
@@ -165,17 +137,48 @@ In this task you will create an integer array with 2 dimensions, that holds valu
 
 ---
 
-## Task 8: Pick a random number from array
-
-8.a Add the following array as a global variable: int[] arr = { 28, 230, 9, 310,72}
-
-8b. Write a method, getRandom() that returns a random element from the above array.
 
 
 
-
-## Task 9: (optional) sorting arrays
+## Task 8: (optional) sorting arrays
 Consider how you could write a method that takes an array (not an ArrayList) of integers as a parameter and returns a new array of the ints sorted from lowest to highest value.
+
+## Task 9: Mere arbejde med String
+
+
+## Palindrome
+Denne opgave er en tricky lille problemløsningsopgave. Opgaven træner dig også i at bruge den hjælp du kan få på nettet.
+
+  a. Skriv en metode printIfPalindrome() som tager en tekststreng som argument og printer den HVIS den kan skrives bagfra uden at ændre sig. (Det kan være en rigtig god idé at skrive lidt pseudo kode, før du går igang). 
+ 
+ Her er lidt pseudokode til at hjælpe dig igang: 
+  1. gem ordet - stavet bagfra - i en anden variabel.
+  2. sammenlign den originale og den nye tekststreng. (hvis de er ens, betyder det at ordet kan staves bagfra)
+
+
+ <details>
+    
+  <summary>Hint 1</summary>
+  <p>En måde at få stavet ordet bagfra er at bruge et for-loop der starter fra det sidste bogstav i tekststrengen. Med String klassens charAt() metode (https://www.w3schools.com/java/ref_string_charat.asp), kan du få fat i hver enkelt bogstav og tilføje dem én ad gangen til en opsamlingsvariabel. 
+
+  </p>
+</details>
+
+  <details>
+  <summary>Hint 2</summary>
+  <p>Alternativt kan du lede på nettet efter noget kode der kan inspirere. Tjek denne løsning: https://www.w3schools.com/Java/java_howto_reverse_string.asp - en helt anden strategi end den fra Hint 1.
+  </p>
+</details>
+  
+  b. Sørg for at metoden ikke er case-sensitiv. 
+  <details>
+  <summary>Hint </summary>
+  <p>Du skal bruge en af String klassens metoder. Kig efter en passende en her: https://www.w3schools.com/java/java_ref_string.asp
+  </p>
+</details>
+
+
+  c. Tilføj en setup metode og kald din metode med argumentet "Den laks skal ned", for at teste den.
 
 # Other exercises (optional)
 If you got stuck or if you finished the above, following are 3 links to exercises, where there is something for all levels.
