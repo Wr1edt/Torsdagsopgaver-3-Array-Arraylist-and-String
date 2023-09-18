@@ -28,14 +28,14 @@ Denne opgave er en tricky lille problemløsningsopgave. Det vigtigste er at du l
 
   <details>
   <summary>Hint 2</summary>
-  <p>Alternativt kan du lede på nettet efter noget kode der kan inspirere. [Tjek denne løsning](https://www.w3schools.com/Java/java_howto_reverse_string.asp) - en helt anden strategi end den fra Hint 1.
+  <p>Alternativt kan du lede på nettet efter noget kode der kan inspirere. Tjek denne løsning:(https://www.w3schools.com/Java/java_howto_reverse_string.asp) - en helt anden strategi end den fra Hint 1.
   </p>
 </details>
   
   1.b Sørg for at metoden ikke er case-sensitiv. 
   <details>
   <summary>Hint </summary>
-  <p>Du skal bruge en af String klassens metoder. [Kig efter en passende en her](https://www.w3schools.com/java/java_ref_string.asp)
+  <p>Du skal bruge en af String klassens metoder. Kig efter en passende en her:(https://www.w3schools.com/java/java_ref_string.asp)
   </p>
 </details>
 
