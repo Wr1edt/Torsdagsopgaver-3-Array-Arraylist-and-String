@@ -1,9 +1,7 @@
 ### Exercises with String, ArrayList and arrays
 
 
-Såfremt I sidder fast ved en opgave, så tag en kort pause og prøv igen. Hvis I stadig sidder fast ved den, så hop videre til den næste.
-Generelt er det bedre at I får tænkt over alle opgaverne, end at I får løst dem allesammen fuldkommen. 
-Endvidere er I meget velkommen til at tale sammen om opgaverne, men det forventes at I alle koder hver jeres løsning. 
+I dette opgavesæt kan det være nødvendigt at slå op hvordan klasserne [String]( https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html) og [ArrayList](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ArrayList.html) bruges:
 
 
 Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres github repo. 
@@ -21,16 +19,20 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 ## Task 2: print et udsnit af et ord
 
-I denne opgave skal du bruge substring metoden fra klassen String. Substring metoden kan man bruge hvis man skal bruge et udsnit af en tekststreng. fx. de tre første bogstaver.(Læs om substring metoden her: https://beginnersbook.com/2013/12/java-string-substring-method-example/). 
+I denne opgave skal du bruge substring metoden fra klassen String. Substring metoden kan man bruge hvis man skal bruge et udsnit af en tekststreng. fx. de tre første bogstaver.(Læs om [substring metoden] (https://beginnersbook.com/2013/12/java-string-substring-method-example/). 
 
-2.a Lav en metode, printPartOfWord(), med tre parametre: 
+2.a Lav en metode, printPartOfWord(), med tre parametre 
 1. ordet der skal findes et udsnit af. 
-2. index tallet for den karakter udsnittet skal starte fra
-3. længden på udsnittet. 
+2. start-index:tallet for det sted udsnittet skal starte 
+3. slut-index: tallet for det sted udsnittet skal slutte
 
-Ex: argumenterne "København", 1 og 4  skal give outputtet "øben". 
+Ex: argumenterne "København", 0 og 3  skal give outputtet "Køb". 
 
 2.b Kald metoden fra setup() med passende argumenter og se om den virker. 
+
+2.d Find ud af hvordan du skal æændre kaldet for at få de sidste 4 bogstaver i en hvilken som helst string.
+
+2.e Nu skal du sikre at metoden ikke fejler hvis man kommer til at kalde den med "forkerte" argumenter. Man må ikke kalde den med negative værdier, og start-index skal være lavere end slut index.
 
 
 ---
