@@ -23,16 +23,16 @@ I denne opgave skal du bruge substring metoden fra klassen String. Substring met
 
 2.a Lav en metode, printPartOfWord(), med tre parametre 
 1. ordet der skal findes et udsnit af. 
-2. start-index:tallet for det sted udsnittet skal starte 
+2. start-index: tallet for det sted udsnittet skal starte 
 3. slut-index: tallet for det sted udsnittet skal slutte
 
 Ex: argumenterne "København", 0 og 3  skal give outputtet "Køb". 
 
 2.b Kald metoden fra setup() med passende argumenter og se om den virker. 
 
-2.d Find ud af hvordan du skal æændre kaldet for at få de sidste 4 bogstaver i en hvilken som helst string.
+2.d Find ud af hvordan du skal ændre kaldet for at få de sidste 4 bogstaver i en hvilken som helst string.
 
-2.e Nu skal du sikre at metoden ikke fejler hvis man kommer til at kalde den med "forkerte" argumenter. Man må ikke kalde den med negative værdier, og start-index skal være lavere end slut index.
+2.e Tjek hvad der sker hvis man kalder metoden med negative værdier. Eller hvor start-index er højere end  end slut index. Nu skal du sikre at metoden giver en passende besked, hvis man kommer til at kalde den med sådanne "forkerte" argumenter.
 
 
 ---
