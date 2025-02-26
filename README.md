@@ -60,32 +60,35 @@ In this task you will print out data from two different arrays.
 
 ---
 
-## Task 4: Square objects in array 
+## Task 4: Circe objects in array 
 
 4.a Start a sketch and add a setup function, (set the size of the canvas).
 
-4.b Add an array to the sketch that will be holding 10 Square instances. (Square being a datatype that you have not yet added)
+4.b Add an array to the sketch that will be holding 10 Circle instances. (Circle being a datatype that you have not yet added)
 
-4.c Write a class called Square with the attributes (fields) xposition and yposition. 
+4.c Write a class called Circle with the attributes (fields) xposition and yposition. 
 
-4.d Add a constructor to the Square class with parametres for xposition and yposition.
+4.d Add a constructor to the Circle class with parametres for xposition and yposition.
 
-4.e Test the class by creating one Square object from the <code>setup</code> function. 
+4.e Test the class by creating one Circle object from the <code>setup</code> function. 
 
-4.f Add a method to the Square class called <code>display()</code>, that will draw a sqare at the position given by the two arguments the instance was created with (xposition and yposition). 
+4.f Add a method to the Circle class called <code>display()</code>, that will draw a sqare at the position given by the two arguments the instance was created with (xposition and yposition). 
 
 4.g Test the <code>display()</code> -method  by calling it on the instance you created in step 4.e.
 <details>
   <summary>Hint</summary>
-  <code>square.display();</code>
+  <code>circle.display();</code>
 </details>
 
-4.h In the sketch main tab, declare an array in global scope called <code>squares</code>.
+4.h In the sketch main tab, declare an array in global scope called <code>circles</code>.
 
-4.i In the setup function, instead of instantiating only 1 Square object we need 10. Therefor, use a <code>for-loop</code> to create the instances. In the call to the constructor, give each instance unique position values, so that they will not be placed at exactly the same spot (experimentation is encouraged).
+4.i In the setup function, instead of instantiating only 1 Circle object we need 10. Therefor, use a loop to create the instances. In the call to the constructor, give each instance unique position values, so that they will not be placed at exactly the same spot (experimentation is encouraged).
 
-4.j Add the instances to the <code>squares</code> array. You may do this after instantiation or simultaneously.
+4.j Add the instances to the <code>circles</code> array. You may do this after instantiation or simultaneously.
 
+4.k Add a method to the Circle class, called move, that adds a value to the x-position and a value to the y-position of the object, then draws the circle again. The values should be passed as parameters into the method.
+
+4.l Test the new method by adding a for-each loop to the draw function, where move is called on each element of the array of Circles. 
 
 ---
 
