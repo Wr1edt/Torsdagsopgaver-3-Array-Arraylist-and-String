@@ -60,7 +60,7 @@ In this task you will print out data from two different arrays.
 
 ---
 
-## Task 4: Circe objects in array 
+## Task 4: Circle objects in array 
 
 4.a Start a sketch and add a setup function, (set the size of the canvas).
 
