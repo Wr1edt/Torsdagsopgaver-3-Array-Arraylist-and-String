@@ -90,6 +90,8 @@ In this task you will print out data from two different arrays.
 
 4.l Test the new method by adding a for-each loop to the draw function, where move is called on each element of the array of Circles. 
 
+4.m OPTIONAL: Add a new class that draws something more complicated than a circle. It too should have a constructor, display and a move method. See if you can make it behave in roughly the same way as the circles.
+
 ---
 
 ## Task 5: Debugging
