@@ -72,7 +72,7 @@ In this task you will print out data from two different arrays.
 
 4.e Test the class by creating one Circle object from the <code>setup</code> function. 
 
-4.f Add a method to the Circle class called <code>display()</code>, that will draw a sqare at the position given by the two arguments the instance was created with (xposition and yposition). 
+4.f Add a method to the Circle class called <code>display()</code>, that will draw an ellipse at the position given by the two arguments, which the instance was created with (xposition and yposition). 
 
 4.g Test the <code>display()</code> -method  by calling it on the instance you created in step 4.e.
 <details>
